@@ -5,7 +5,7 @@ kramirezm1600@alumno.ipn.mx
 
 Usando la base de datos sample_mflix, proyecta los datos que se solicitan.
 */
-#1)Fecha, nombre y texto de cada comentario.
+//1)Fecha, nombre y texto de cada comentario.
 {
  project: {
   name: 1,
@@ -15,7 +15,7 @@ Usando la base de datos sample_mflix, proyecta los datos que se solicitan.
  }
 }
 
-#2)Título, elenco y año de cada película.
+//2)Título, elenco y año de cada película.
 {
  project: {
   title: 1,
@@ -25,7 +25,7 @@ Usando la base de datos sample_mflix, proyecta los datos que se solicitan.
  }
 }
 
-#3)Nombre y contraseña de cada usuario.
+//3)Nombre y contraseña de cada usuario.
 {
  project: {
   name: 1,
