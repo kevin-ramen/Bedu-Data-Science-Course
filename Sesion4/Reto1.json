@@ -1,0 +1,35 @@
+#Reto1
+/*
+Ramirez Mendez Kevin
+kramirezm1600@alumno.ipn.mx
+
+Usando la base de datos sample_mflix, proyecta los datos que se solicitan.
+*/
+#1)Fecha, nombre y texto de cada comentario.
+{
+ project: {
+  name: 1,
+  text: 1,
+  date: 1,
+  _id: 0
+ }
+}
+
+#2)Título, elenco y año de cada película.
+{
+ project: {
+  title: 1,
+  cast: 1,
+  year: 1,
+  _id: 0
+ }
+}
+
+#3)Nombre y contraseña de cada usuario.
+{
+ project: {
+  name: 1,
+  password: 1,
+  _id: 0
+ }
+}
