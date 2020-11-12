@@ -1,1 +1,30 @@
+{
+ filter: {
+  house_rules: RegExp('Banned Party|No Part[y|ies]', i)
+ }
+}
 
+{
+ filter: {
+  house_rules: RegExp('[^No] pets allowed', i)
+ }
+}
+
+{
+ filter: {
+  house_rules: RegExp('No Smoking', i)
+ }
+}
+
+{
+ filter: {
+  $and: [
+   {
+    house_rules: RegExp('Banned Party|No Part[y|ies]', i)
+   },
+   {
+    house_rules: RegExp('No Smoking', i)
+   }
+  ]
+ }
+}
