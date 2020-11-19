@@ -1,1 +1,3 @@
-
+[{$match: {
+  amenities: {$in: [/Wifi/i,/Ethernet/i]}
+}}, {$count: 'num_publicaciones_internet'}]
